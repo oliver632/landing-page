@@ -154,21 +154,21 @@ body {
     display: flex;
     gap: 16px;
     padding: 60px 10% 60px 10%;
+    justify-content: center;
+    align-items: center;
 
 }
 
 .fourbox {
     display: flex;
-    width: 700px;
+    width: 550px;
     background-color: #3882F6;
     color:white;
-    justify-self: center;
     justify-content: space-between;
     align-items: center;
     padding:32px 70px 32px 70px;
     border-radius: 6px;
     flex-wrap: wrap;
-    flex: 1 1 0;
     margin:0;
     gap:8px;
 }
