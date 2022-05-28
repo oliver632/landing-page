@@ -2,6 +2,8 @@ body {
     padding:0px;
     margin:0;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 /*Header*/
@@ -147,3 +149,59 @@ body {
     font-size: 18px;
 }
 
+/*Section 4*/
+.fourth-section {
+    display: flex;
+    gap: 16px;
+    padding: 60px 10% 60px 10%;
+
+}
+
+.fourbox {
+    display: flex;
+    width: 700px;
+    background-color: #3882F6;
+    color:white;
+    justify-self: center;
+    justify-content: space-between;
+    align-items: center;
+    padding:32px 70px 32px 70px;
+    border-radius: 6px;
+    flex-wrap: wrap;
+    flex: 1 1 0;
+    margin:0;
+    gap:8px;
+}
+
+
+
+.cta-main {
+    font-weight: bold;
+    font-size:18px;
+}
+
+.cta-secondary {
+    font-size:14px;
+}
+
+.button2 {
+    display: flex;
+    border: solid white 1px;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+/*footer*/
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    height: 70px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    margin:0;
+}
