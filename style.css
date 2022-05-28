@@ -107,11 +107,11 @@ body {
 .info-boxes {
     display:flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     text-align: center;
     flex-wrap: wrap;
     gap: 16px;
-
+    
 }
 
 .box, .box-subtext {
